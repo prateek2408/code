@@ -18,7 +18,7 @@ uint64_t fib(const uint64_t& n){
 int main(){
     time_t start, end;
     time(&start);
-    std::cout << fib(48) << std::endl;
+    std::cout << fib(1000000000) << std::endl;
     time(&end);
     std::cout << double(end-start) << std::endl;
     return 0;
